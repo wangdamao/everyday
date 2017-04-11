@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			
+			.box-1{
+				width: 500px;
+				height: 500px;
+				border: 1px solid red;
+			}
+			#box-2{
+				width: 500px;
+				height: 500px;
+				background: url(../image/20130311110318006.jpg);
+				-webkit-mask:url(../image/1.png) no-repeat;
+				transition: 0.3s;
+			}
+			
+			/*.box-1:hover .box-2{
+				-webkit-mask-position:200px 100px ;
+			}*/
+					
+		</style>
+		
+	</head>
+	<body>
+		
+		<div class="box-1">
+			<div id="box-2">
+				
+			</div>
+		</div>
+		<script>
+			var oDiv = document.getElementById('box-2');
+			oDiv.onmousemove = function(ev){
+				oDiv.style['-webkit-mask-position'] = (ev.clientX-50)+'px '+(ev.clientY-36)+'px';
+			}
+		</script>
+	</body>
+</html>
