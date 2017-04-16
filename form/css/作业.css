@@ -1,0 +1,95 @@
+body,p,h1,h2,h3,h4,h5,h6,dl,dd,dt{
+				 margin: 0;
+			}
+			
+			ul,ol{
+				     margin: 0;
+				     padding: 0;
+				     list-style: none;
+			}
+			
+			h1,h2,h3,h4,h5,h6,strong,b{
+							font-weight: normal;
+			}
+			
+			a{
+				text-decoration: none;
+				color: ;
+			}
+			
+			img{
+				vertical-align: top;
+				border: none;
+			}
+			
+			i,em{
+				 font-style: normal;
+			}
+			.clearfix:after{
+						content: "";
+						clear: both;
+						display: block;
+						overflow: hidden;
+						height: 0;
+			}
+			
+			.clearfix{
+				zoom: 1;
+			}
+input{
+	padding: 0;
+	margin: 0;
+}
+form{
+	margin: 0;
+	background: yellow;
+}
+
+.cu{
+	font-weight:bold ;
+}
+
+
+form{
+	width: 360px;
+	height: 476px;
+	border: 1px solid red;
+	margin: 50px auto;
+	padding: 24px 24px 0 24px;
+}
+
+.head{
+	text-align: right;
+}
+
+textarea{
+	width: 220px;
+	height: 115px;
+	resize: none;
+}
+
+fieldset{
+	border-width:1px 0 0 0 ;
+	padding: 0;
+	margin: 0;
+	padding-left:10px ;
+}
+legend{
+	
+}
+.kuan{
+	width: 330px;
+}
+.margin{
+	margin-bottom: 10px;
+}
+
+.margin0{
+	margin-bottom:5px ;
+}
+
+.margin2{
+	margin-top:5px;
+	
+	padding-left:122px ;
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+	/*table{
+		width:200px;
+		height:200px;
+		border:10px solid red;
+		border-collapse:collapse;	
+		//padding:20px;
+	}
+	td{
+		border:1px solid red;
+	}*/
+	/*
+		表格的边框以及内边距不是附加在表格上的，而是算在表格的宽高之内的，因此量取时要将表格的内边距和边框量在内；
+		在同一个table内部，margin值是不能正常显示的，但是table与table之间是可以用margin值隔开的；
+	*/	
+</style>
+</head>
+
+<body>
+	<table width="200" height="200" border="1" align="center" cellspacing="0" cellpadding="0">
+    	<tr  valign="top">
+        	<td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr>
+        	<td>单元格</td>
+            <td>单元格</td>
+        </tr>
+    </table>
+    <!--
+    	以上写在表格元素内部的属性是表格的html属性，同样可以改变table
+    -->
+</body>
+</html>

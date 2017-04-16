@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+fieldset{
+	border:none;
+	border-top:1px solid red;
+	margin:0;
+	padding:0;	
+	//padding-left:30px;
+}
+legend{
+	margin-left:50px;	
+}
+</style>
+</head>
+
+<body>
+	<fieldset>
+    	<legend>个人信息</legend>
+        姓名
+    </fieldset>
+    <!--
+    	fieldset即表单字段集，即将信息集合在一个大方框内，可用来给表单分块；legend是字段集标题，当写了字段集标题后，标题文字会浮在字段集的边框上；另外，字段集是默认有边框和内外边距的，需要重置；
+    -->
+    <p>
+    	<label for="a">姓名：</label><input type="text" id="a"/>
+    </p>
+     <p>
+    	<label>生日：<input type="text"/></label>
+        <!--
+        	label是信息绑定标签，即将提示信息与相应的表单控件绑定，可以达到点击提示信息就自动聚焦到相应控件的目的；
+        -->
+    </p>
+</body>
+</html>
